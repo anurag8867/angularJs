@@ -1,0 +1,12 @@
+{
+  "name": "angular-6",
+  "version": "1.0.0",
+  "description": "My first ANgular 6 app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Anurag",
+  "license": "ISC"
+}
