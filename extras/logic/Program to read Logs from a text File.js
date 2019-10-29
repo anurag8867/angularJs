@@ -1,34 +1,45 @@
 const fs = require('fs');
-let totalLogs, totalLogsJson;
+let totalLogs;
+
+function sortLogs(logs, fromDate) {
+  let sortLog = [];
+  logs.forEach(function (log) {
+    if (log.length && toJson(log) && toJson(log).timestamp) {
+      log = toJson(log).message
+      sortLog.push(log)
+    }
+  })
+  return sortLog;
+}
+
 fs.readFile('../../logging/log/error.log', (err, data) => {
   if (err) throw err;
   this.totalLogs = data.toString();
-  if (IsJsonString(this.totalLogs)) {
-    this.totalLogsJson = JSON.parse(this.totalLogs);
-    console.log(this.totalLogsJson[0].message);
-    console.log(this.totalLogsJson[0].level);
+  let fromDate = "2019-08-11";
+  if (isJsonAble(this.totalLogs)) {
+    this.totalLogs = toJson(this.totalLogs);
+    console.log(this.totalLogs[0].message);
+    console.log(this.totalLogs[0].level);
   } else {
-    console.log(splitString(this.totalLogs)[0])
     if (splitString(this.totalLogs)[0].message === undefined) {
-      console.log("In IF")
-      console.log(toJson(splitString(this.totalLogs)[0]))
-      console.log(toJson(splitString(this.totalLogs)[0]).message)
+      this.totalLogs = splitString(this.totalLogs)
+      console.log(sortLogs(this.totalLogs, fromDate));
     } else {
       console.log("In Else")
       console.log(((splitString(this.totalLogs))[0]).message)
     }
 
-    if ((toJson(splitString(this.totalLogs))[0]).message === undefined) {
-      console.log("In IF")
-      console.log(toJson(toJson(splitString(this.totalLogs))[0]).message)
-    } else {
-      console.log("In Else")
-      console.log((toJson(splitString(this.totalLogs))[0]).message)
-    }
+    // if ((toJson(splitString(this.totalLogs))[0]).message === undefined) {
+    //   console.log("In IF")
+    //   console.log(toJson(toJson(splitString(this.totalLogs))[0]).message)
+    // } else {
+    //   console.log("In Else")
+    //   console.log((toJson(splitString(this.totalLogs))[0]).message)
+    // }
   }
 })
 
-function IsJsonString(str) {
+let isJsonAble = function (str) {
   try {
     JSON.parse(str);
   } catch (e) {
