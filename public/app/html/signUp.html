@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="../controllers/signUpController.js"></script>
+</head>
+<body ng-app="app" ng-controller="signUpController">
+<div class="container">
+    <div>
+        <label><b>Username</b></label>
+        <input type="email" pattern=".+@gmail.com" placeholder="Enter Username" name="uname" required
+               ng-model="userName">
+    </div>
+    <br>
+    <div>
+        <label><b>Password</b></label>
+        <input type="password" min="1" max="5" placeholder="Enter Password" name="psw" required ng-model="password">
+    </div>
+    <br>
+    <div>
+        <label><b>Confirm Password</b></label>
+        <div ng-if="checkMessage">
+            <span style="color:Red">{{checkMessage}}</span>
+        </div>
+        <input type="password" placeholder="Enter Password" ng-keydown="checkPassword($event)" name="psw" required
+               ng-model="confirmPassword">
+    </div>
+    <br>
+    <div>
+                    <label><b>User type</b></label>
+        <select>
+            <option value="owner">Owner</option>
+            <option value="admin">Admin</option>
+            <option value="customer">Customer</option>
+            <option value="seller">Seller</option>
+            <option value="delieveryBoy">Delievery Boy</option>
+        </select>
+<!--        <label>-->
+<!--            <label><b>User type</b></label>-->
+<!--            <input type="checkbox" checked="checked" ng-model="userType"> Remember me-->
+<!--        </label>-->
+<!--        <label>-->
+<!--            <input type="checkbox" checked="checked" ng-model="userType"> Remember me-->
+<!--        </label>-->
+<!--        <label>-->
+<!--            <input type="checkbox" checked="checked" name="remember"> Remember me-->
+<!--        </label>-->
+<!--        <label>-->
+<!--            <input type="checkbox" checked="checked" name="remember"> Remember me-->
+<!--        </label>-->
+    </div>
+    <div>
+        <button type="submit" ng-click="signUp()" ng-disabled="!password || !userName || !confirmPassword">SignUp
+        </button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+</div>
+</body>
+</html>
