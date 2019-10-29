@@ -1,12 +1,1 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
-
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  var dbo = db.db("angularJs");
-  dbo.collection("customers").deleteOne({ address: 'Mountain 21' } ,function(err, result) {
-    if (err) throw err;
-    console.log(result);
-    db.close();
-  });
-});
+console.log("E11000 duplicate key error collection: school_com.users index: email_1 dup key: { : \"sindhuanurag3@gmail.com\" }".substring(0, 37))

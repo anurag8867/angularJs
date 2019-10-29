@@ -30,10 +30,10 @@
 {"level":"debug","message":"Creating In-Process Worker Client","timestamp":"2019-08-13T06:32:21.886Z"}
 {"level":"debug","message":"Creating In-Process Worker Client","timestamp":"2019-08-13T06:32:22.213Z"}
 {"level":"debug","message":"Creating In-Process Worker Client","timestamp":"2019-08-13T06:32:22.477Z"}
-{"level":"info","message":"Entry -  P: creating Project, O: POST, T: auth/login RQ: {\"authType\":\"redfort\"}","timestamp":"2019-08-14T07:00:42.931Z"}
-{"level":"info","message":"Exit -  P: creating Project, O: POST, T: auth/login","timestamp":"2019-08-14T07:00:43.219Z"}
-{"level":"info","message":"Entry -  P: creating Project, O: POST, T: auth/login RQ: {\"authType\":\"redfort\"}","timestamp":"2019-08-14T07:00:44.034Z"}
-{"level":"info","message":"Exit -  P: creating Project, O: POST, T: auth/login","timestamp":"2019-08-14T07:00:44.620Z"}
+{"level":"info","message":"Entry -  P: creating Project, O: POST, T: auth/signUpLogin RQ: {\"authType\":\"redfort\"}","timestamp":"2019-08-14T07:00:42.931Z"}
+{"level":"info","message":"Exit -  P: creating Project, O: POST, T: auth/signUpLogin","timestamp":"2019-08-14T07:00:43.219Z"}
+{"level":"info","message":"Entry -  P: creating Project, O: POST, T: auth/signUpLogin RQ: {\"authType\":\"redfort\"}","timestamp":"2019-08-14T07:00:44.034Z"}
+{"level":"info","message":"Exit -  P: creating Project, O: POST, T: auth/signUpLogin","timestamp":"2019-08-14T07:00:44.620Z"}
 {"level":"error","message":"Fetching data from cache failed Data not found in cache","timestamp":"2019-08-14T07:00:44.874Z"}
 {"level":"error","message":"Fetching data from cache failed Data not found in cache","timestamp":"2019-08-14T07:00:45.103Z"}
 {"level":"info","message":"dbLayer- getFoldersById database operation success","timestamp":"2019-08-14T07:00:45.654Z"}

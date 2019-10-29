@@ -1,0 +1,34 @@
+{
+  "_id": ObjectId("5cda77a35aa0d1345465ca80"),
+  "projectId": "5cda77a35aa0d1345465ca8ae0",
+  "countryId": "5cda77a35aa0d134545caasde0",
+  "name": "SampleSwSolution",
+  "product": [{
+    "name": "SampleSwSolutionProduct",
+    "licenses": [
+      {
+        "sku": "ASDFE3345O",
+        "description": "SampleSwSolutionProductDescription3",
+        "quantity": 1,
+        "billingModel": "CL",
+        "hardwarePurchase": "New - Lease",
+        "dartPricing": {
+          "netPrice": 598.45,
+          "upfrontCharge": 7879.54,
+          "totalRevenue":44656.45
+        }
+      }, {
+        "sku": "ASDFE33457",
+        "description": "SampleSwSolutionProductDescription2",
+        "quantity": 2,
+        "billingModel": "CL",
+        "hardwarePurchase": "New - Lease",
+        "dartPricing": {
+          "netPrice": 598.45,
+          "upfrontCharge": 7879.54,
+          "totalRevenue":44656.45
+        }
+      }
+    ]
+  }]
+}
