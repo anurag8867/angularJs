@@ -1,0 +1,82 @@
+/* 2 */
+{
+  "_id" : ObjectId("5d92e44ab3b1fa597eb4c8fb"),
+  "name" : "United States",
+  "parentId" : ObjectId("5d92e44ab3b1fa597eb4c8fa"),
+  "type" : "COUNTRY",
+  "levelSpecificData" : {
+    "currency" : "USD"
+  },
+  "createdDate" : 1569907786955.0,
+  "lastModifiedDate" : 1569907786955.0,
+  "ancestors" : [
+    ObjectId("5d92e44ab3b1fa597eb4c8fa")
+  ],
+  "order" : 0
+}
+/* 9 */
+{
+  "_id" : ObjectId("5d92e461b78b555b228bebcd"),
+  "name" : "Hong Kong",
+  "type" : "COUNTRY",
+  "parentId" : ObjectId("5d92e44ab3b1fa597eb4c8fa"),
+  "ancestors" : [
+    ObjectId("5d92e44ab3b1fa597eb4c8fa")
+  ],
+  "order" : 1,
+  "levelSpecificData" : {
+    "currency" : "HKD"
+  },
+  "createdDate" : 1569907810087.0,
+  "lastModifiedDate" : 1569907810087.0
+}
+
+/* 13 */
+{
+  "_id" : ObjectId("5d92e461b78b555b228bebd2"),
+  "name" : "Malaysia",
+  "type" : "COUNTRY",
+  "parentId" : ObjectId("5d92e44ab3b1fa597eb4c8fa"),
+  "ancestors" : [
+    ObjectId("5d92e44ab3b1fa597eb4c8fa")
+  ],
+  "order" : 2,
+  "levelSpecificData" : {
+    "currency" : "MYR"
+  },
+  "createdDate" : 1569907810095.0,
+  "lastModifiedDate" : 1569907810095.0
+}
+
+/* 17 */
+{
+  "_id" : ObjectId("5d92e461b78b555b228bebdd"),
+  "name" : "Belgium",
+  "type" : "COUNTRY",
+  "parentId" : ObjectId("5d92e44ab3b1fa597eb4c8fa"),
+  "ancestors" : [
+    ObjectId("5d92e44ab3b1fa597eb4c8fa")
+  ],
+  "order" : 3,
+  "levelSpecificData" : {
+    "currency" : "EUR"
+  },
+  "createdDate" : 1569907810103.0,
+  "lastModifiedDate" : 1569907810103.0
+}
+/* 21 */
+{
+  "_id" : ObjectId("5d92e461b78b555b228bebe2"),
+  "name" : "South Korea",
+  "type" : "COUNTRY",
+  "parentId" : ObjectId("5d92e44ab3b1fa597eb4c8fa"),
+  "ancestors" : [
+    ObjectId("5d92e44ab3b1fa597eb4c8fa")
+  ],
+  "order" : 4,
+  "levelSpecificData" : {
+    "currency" : "KRW"
+  },
+  "createdDate" : 1569907810111.0,
+  "lastModifiedDate" : 1569907810111.0
+}
