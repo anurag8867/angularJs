@@ -1,28 +1,28 @@
 class Node {
     constructor(element) {
-        this.prev = null,
             this.data = element,
             this.next = null
     }
 }
 
-class DoublyLinkedList {
+class SinglyLinkedList {
     constructor() {
         this.head = null;
         this.tail = null;
     }
 
-    add( item ) {
-        let node = new Node( item );
-        if(!this.head) {
+    add(element) {
+        let node = new Node(element);
+        if (this.head === null) {
             this.head = node;
-            this.tail = node;
         } else {
-            node.prev = this.tail;
-            this.tail.next = node;
-            this.tail = node
+            let pointer = this.head;
+            while (pointer.next) {
+                pointer = pointer.next;
+            }
+            pointer.next = node;
         }
-        return;
+        return this.head;
     }
 
     addAt(element, index) {
@@ -30,19 +30,17 @@ class DoublyLinkedList {
         if (this.head === null) {
             this.head = node;
         } else {
-            let pointer = this.head, nextPointer = null;
+            let pointer = this.head, nextPointer = null ;
             let runInd = 0;
             while (runInd !== (index - 1)) {
                 pointer = pointer.next;
                 runInd++;
             }
-            if (pointer.next) {
+            if(pointer.next) {
                 nextPointer = pointer.next;
             }
             pointer.next = node;
-            node.prev = pointer;
             node.next = nextPointer;
-            nextPointer.prev = node;
         }
         return this.head;
     }
@@ -51,29 +49,28 @@ class DoublyLinkedList {
         if (this.head === null) {
             this.head = node;
         } else {
-            let pointer = this.head, nextPointer = null;
+            let pointer = this.head, nextPointer = null ;
             let runInd = 0;
             while (runInd !== (index - 1)) {
                 pointer = pointer.next;
                 runInd++;
             }
-            if (pointer.next) {
+            if(pointer.next) {
                 nextPointer = pointer.next.next;
             }
             pointer.next = nextPointer;
-            nextPointer.prev = pointer
         }
         return this.head;
     }
 
     removeElement(element) {
-        let pointer = this.head, nextPointer = null, prevPointer = null;
+        let pointer = this.head, nextPointer = null, prevPointer = null ;
         let runInd = 0;
         while (pointer.data !== element) {
             prevPointer = pointer;
             pointer = pointer.next;
         }
-        if (pointer.next) {
+        if(pointer.next) {
             nextPointer = pointer.next;
         }
         prevPointer.next = nextPointer;
@@ -82,12 +79,12 @@ class DoublyLinkedList {
 }
 
 
-let dd = new DoublyLinkedList();
+let dd = new SinglyLinkedList();
 dd.add(10);
 dd.add(20);
 dd.add(30);
 dd.add(40);
 dd.add(50);
-// dd.addAt(44, 3);
-// dd.removeFrom(2);
-// dd.removeElement(20);
+dd.addAt(44, 3);
+dd.removeFrom(2);
+dd.removeElement(20);

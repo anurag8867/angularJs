@@ -6,7 +6,7 @@ MongoClient.connect(url, function(err, db) {
   var dbo = db.db("angularJs");
   var myquery = { address: "Valley 345" };
   var newvalues = { $set: {name: "Mickey", address: "Canyon 123" } };
-  dbo.collection("customers").updateOne(myquery, newvalues, function(err, result) {
+  dbo.collection("customers").updateOne({"id" : "2533505760081227"}, newvalues, function(err, result) {
     if (err) throw err;
     console.log(result);
     db.close();
