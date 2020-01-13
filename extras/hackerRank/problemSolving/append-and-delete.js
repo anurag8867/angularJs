@@ -1,33 +1,42 @@
 // Complete the appendAndDelete function below.
 function appendAndDelete(s, t, k) {
-let orgFirstStringArray = s.split("");
-let orgSecondStringArray = t.split("");
-let orgMoves = k;
-let commonArray = [];
-let sArray = orgFirstStringArray;
-let tArray = orgSecondStringArray;
 
-for (let index = 0; index < sArray.length; index++) {
-  if(sArray[index] === tArray[index]) {
-    commonArray.push(sArray[index])
-  } else {
-    break;
+
+
+
+
+  let arrayS = s.split("");
+  let arrayT = t.split("");
+  if ((s.length + t.length) <= k) {
+    return "Yes"
   }
-}
-  let leftStr1 = s.slice(commonArray.length, );
-  let leftStr2 = t.slice(commonArray.length, );
-  let comStr1 = s.slice(0, commonArray.length);
-  let comStr2 = t.slice(0, commonArray.length);
-  if((leftStr1.length + leftStr2.length)  === 0) {
-    return "Yes";
+  let leftS = "";
+  let leftT = "";
+  for (let index = 0; (index < t.length || index < s.length); index++) {
+    if ((!(arrayS[index] === arrayT[index])) || !arrayS[index] || !arrayT[index]) {
+      leftS = s.slice(index);
+      leftT = t.slice(index);
+      break;
+    }
   }
-  if((leftStr1.length + leftStr2.length) > k) {
+
+  if (leftS.length === 0 && (leftT.length  % 2 !== 0)) {
     return "No";
+
   }
 
-  return "Yes";
+  if ((leftS.length + leftT.length) <= k) {
+    return "Yes"
+  }
+
+  return "No";
+
+
+
 }
 
-// console.log(appendAndDelete("hackerhappy", "hackerrank", 9));
-// console.log(appendAndDelete("ashley", "ash", 2));
+console.log(appendAndDelete("abcd", "abcdert", 2));
+console.log(appendAndDelete("y", "yu", 2));
+console.log(appendAndDelete("ashley", "ash", 2));
 console.log(appendAndDelete("aba", "aba", 7));
+console.log(appendAndDelete("hackerhappy", "hackerrank", 9));

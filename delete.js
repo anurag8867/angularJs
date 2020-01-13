@@ -1,15 +1,12 @@
-//Use .bind() javascript
 
-var obj = {name:"Niladri"};
+function convert(str) {
+    str = str.replace("_", " ");
+    let string = "";
+    let split = str.split(" ");
+    split.forEach(function (value) {
+        string += value[0].toUpperCase() + value.substring(1) + " ";
+    });
+    return string.substring(0, string.length - 1);
+}
 
-var greeting = function(a,b,c){
-  return "welcome "+this.name+" to "+a+" "+b+" in "+c;
-};
-
-//creates a bound function that has same body and parameters
-var bound = greeting.bind(obj);
-
-
-console.dir(bound); ///returns a function
-
-console.log(bound("Newtown","KOLKATA","WB"));
+console.log(convert("random_verification"))
