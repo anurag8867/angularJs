@@ -3,15 +3,12 @@ var url = "mongodb://localhost:27017/";
 
 MongoClient.connect(url, function(err, db) {
   if (err) throw err;
-  var dbo = db.db("school_com");
-  dbo.collection("users").createIndex({"email": 1}, { unique: true }, function(err, result) {
-    if (err) throw err;
+  var dbo = db.db("Db");
+  dbo.collection("users").findOne({"id" : "2533505760081227"}, function(err, result) {
+    if (err){
+      console.log(err);
+    }
     console.log(result);
     db.close();
   });
-  // dbo.collection("users").find({}).toArray(function(err, result) {
-  //   if (err) throw err;
-  //   console.log(result);
-  //   db.close();
-  // });
 });

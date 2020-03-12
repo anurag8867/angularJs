@@ -12,17 +12,20 @@ class DoublyLinkedList {
         this.tail = null;
     }
 
-    add( item ) {
-        let node = new Node( item );
-        if(!this.head) {
+    add(element) {
+        let node = new Node(element);
+        if (this.head === null) {
             this.head = node;
             this.tail = node;
         } else {
-            node.prev = this.tail;
-            this.tail.next = node;
-            this.tail = node
+            let pointer = this.head;
+            while (pointer.next) {
+                pointer = pointer.next;
+            }
+            pointer.next = node;
+            node.prev = pointer;
         }
-        return;
+        return this.head;
     }
 
     addAt(element, index) {
@@ -60,6 +63,7 @@ class DoublyLinkedList {
             if (pointer.next) {
                 nextPointer = pointer.next.next;
             }
+
             pointer.next = nextPointer;
             nextPointer.prev = pointer
         }
@@ -77,6 +81,7 @@ class DoublyLinkedList {
             nextPointer = pointer.next;
         }
         prevPointer.next = nextPointer;
+        nextPointer.prev = prevPointer;
         return this.head;
     }
 }
@@ -88,18 +93,6 @@ dd.add(20);
 dd.add(30);
 dd.add(40);
 dd.add(50);
-// dd.addAt(44, 3);
-// dd.removeFrom(2);
-// dd.removeElement(20);
-
-function convert(str) {
-    str = str.replace("_", " ");
-    let string = "";
-    let split = str.split(" ");
-    split.forEach(function (value) {
-        string += value[0].toUpperCase() + value.substring(1) + " ";
-    });
-    return string.substring(0, string.length - 1);
-}
-
-console.log(convert("random_verification"));
+dd.addAt(44, 3);
+dd.removeFrom(2);
+dd.removeElement(40);
