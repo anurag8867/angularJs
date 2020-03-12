@@ -1,24 +1,29 @@
-function hackerrankInString(s) {
-  s = s.toLowerCase();
-  s = s.split("").sort();
-  let hackerrank = "hackerrank".split("").sort();
-  let hackerrankLength = hackerrank.length;
-  for (let index = 0; index < hackerrankLength; index++) {
-    for (let index2 = 0; index2 < s.length; index2++) {
-      if (s[index] === hackerrank[index2]) {
-        hackerrank.splice(index2, 1);
-        s.splice(index, 1);
+function isExist(s, hack) {
+  let index1 = 0, found = false, count = 0;
+  for (let index = 0; (index < hack.length && index1 < s.length); index++) {
+    for (; index1 < s.length; index1++) {
+      if (s[index1] === hack[index]) {
+        count++;
+        index1++;
         break;
       }
     }
   }
-  if (hackerrank.length >1) {
-    return "NO"
+  if (hack.length === count) {
+    return "YES";
   }
-  return "YES";
+  return "NO";
 }
 
-console.log(hackerrankInString("hereiamstackerrank"));
-console.log(hackerrankInString("hackerworld"));
-console.log(hackerrankInString("hhaacckkekraraannk"));
-console.log(hackerrankInString("rhbaasdndfsdskgbfefdbrsdfhuyatrjtcrtyytktjjt"));
+function hackerrankInString(s) {
+  return isExist(s, "hackerrank");
+}
+
+
+
+console.log(hackerrankInString("rhackerank"));
+console.log(hackerrankInString("knarrekcah"));
+console.log(hackerrankInString("hackerrank"));
+console.log(hackerrankInString("hackeronek"));
+console.log(hackerrankInString("abcdefghijklmnopqrstuvwxyz"));
+console.log(hackerrankInString("ahankercka"));

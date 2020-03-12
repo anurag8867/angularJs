@@ -1,0 +1,3045 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "utf-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "element",
+            "name": "ecomexpress-objects",
+            "attributes": {
+                "version": "1.0"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "object",
+                    "attributes": {
+                        "pk": "2",
+                        "model": "awb"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "BigIntegerField",
+                                "name": "awb_number"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "1045145002"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "orderid"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "1594-2086"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "FloatField",
+                                "name": "actual_weight"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "origin"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SURAT - SUD"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "destination"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "DELHI-DHQ"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "current_location_name"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SURAT - SUD"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "current_location_code"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SUD"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "customer"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SPRINGROLE INDIA PRIVATE LIMITED - 722294"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "consignee"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "MEGHA AGARWAL"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "pickupdate"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "22-Nov-2019"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "status"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "tracking_status"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "In-Transit"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "2017 - Max field attempts failed, hence cancelled by Ecom"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code_description"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Max field attempts failed, hence cancelled by Ecom"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code_number"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "2017 "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "receiver"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "lat"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.0000000"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "long"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.0000000"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "expected_date"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "last_update_date"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "22-Nov-2019"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "last_update_datetime"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "22-Nov-2019 01:47"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_date"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "ref_awb"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "None"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_shipment"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "system_delivery_update"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_system_delivery_status"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_reason_code_number"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_last_update"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "pincode"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "395001"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "city"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "DELHI"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "state"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "New Delhi"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_pod_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_pod_signature"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_signature"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_packed_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_open_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "name": "scans"
+                            },
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "1",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "22 Nov, 2019, 01:47 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2017 - Max field attempts failed, hence cancelled by Ecom"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2017"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "2",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "21 Nov, 2019, 01:55 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "3",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "20 Nov, 2019, 01:53 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "4",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "19 Nov, 2019, 01:55 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "5",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "18 Nov, 2019, 02:04 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "6",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "17 Nov, 2019, 02:08 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "7",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "16 Nov, 2019, 02:15 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "8",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "15 Nov, 2019, 02:15 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "9",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "14 Nov, 2019, 14:22 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2407 - Number not reachable / phone switched off on field"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2407"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SAGAR NIKUNBE - O92749"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "10",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "14 Nov, 2019, 09:27 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "014"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "AVADHESH MAURYA - 62826"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "11",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "14 Nov, 2019, 09:14 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Redirection under Same Airwaybill"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2424 - Redirected to another delivery centre"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "2424"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUA"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Jagdish Gupta - 19030"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "12",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "13 Nov, 2019, 19:01 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "013"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUA"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "object",
+                    "attributes": {
+                        "pk": "1",
+                        "model": "awb"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "BigIntegerField",
+                                "name": "awb_number"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "1045358101"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "orderid"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "1594-2086"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "FloatField",
+                                "name": "actual_weight"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "origin"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SURAT - SUA"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "destination"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "DELHI-DHQ"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "current_location_name"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SURAT - SUA"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "current_location_code"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SUA"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "customer"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "SPRINGROLE INDIA PRIVATE LIMITED - 722294"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "consignee"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "MEGHA AGARWAL"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "pickupdate"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "26-Nov-2019"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "status"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Delivered / Closed"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "tracking_status"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Delivered"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "999 - Delivered"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code_description"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Delivered"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "reason_code_number"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "999"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "receiver"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "lat"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.0000000"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "long"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0.0000000"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "expected_date"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "last_update_date"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "26-Nov-2019"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "last_update_datetime"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "26-Nov-2019 11:57"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_date"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "ref_awb"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "None"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_shipment"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "system_delivery_update"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_system_delivery_status"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_reason_code_number"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rts_last_update"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "pincode"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "395001"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "city"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "DELHI"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "state"
+                            },
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "New Delhi"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_pod_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "delivery_pod_signature"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_signature"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_packed_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "type": "CharField",
+                                "name": "rev_pickup_open_image"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "field",
+                            "attributes": {
+                                "name": "scans"
+                            },
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "1",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "26 Nov, 2019, 11:57 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Shipment delivered"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "999 - Delivered"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "999"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUA"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SHAH SALIM - 54748"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "2",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "26 Nov, 2019, 10:25 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "014"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUA"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Quazi MD Farooque - 19034"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "object",
+                                    "attributes": {
+                                        "pk": "3",
+                                        "model": "scan_stages"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "DateTimeField",
+                                                "name": "updated_on"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "26 Nov, 2019, 09:18 "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "status"
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": " - "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "reason_code_number"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "013"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "scan_status"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "HOLD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SUA"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_city"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "location_type"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Service Center"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "city_name"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "SURAT"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "field",
+                                            "attributes": {
+                                                "type": "CharField",
+                                                "name": "Employee"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "None"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
