@@ -20,9 +20,19 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/delete.js"
+            // "program": "${workspaceFolder}/extras/interview_job/dunzon/2ndQuest.js"
+            // "program": "${workspaceFolder}/extras/js/asyncwaterfall.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/common-child.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/findLongestSubarrayBySum.js"
+            // "program": "${workspaceFolder}/extras/interview_job/trcxn/codeChef.js"
+            // "program": "${workspaceFolder}/extras/js/dataStructure/graph.js"
+            // "program": "${workspaceFolder}/extras/extra/Insufficiency/candidate.js"
+            // "program": "${workspaceFolder}/extras/extra/Insufficiency/insufficencies.js"
+            "program": "${workspaceFolder}/extras/myCorporateExpenses.js"
+            // "program": "${workspaceFolder}/extras/js/errorHandling/index.js"
+            // "program": "${workspaceFolder}/extras/js/async-await.js"
             // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/Triple sum.js"
-            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/anagram.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/Triple sum.js"
         }
     ]
 }
