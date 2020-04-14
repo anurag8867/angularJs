@@ -24,15 +24,36 @@
             // "program": "${workspaceFolder}/extras/js/asyncwaterfall.js"
             // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/common-child.js"
             // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/findLongestSubarrayBySum.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/KadanesAlgorithmMaximumSumSubarrayAmazonCodingInterviewQuestion.js"
             // "program": "${workspaceFolder}/extras/interview_job/trcxn/codeChef.js"
             // "program": "${workspaceFolder}/extras/js/dataStructure/graph.js"
             // "program": "${workspaceFolder}/extras/extra/Insufficiency/candidate.js"
             // "program": "${workspaceFolder}/extras/extra/Insufficiency/insufficencies.js"
-            "program": "${workspaceFolder}/extras/myCorporateExpenses.js"
+            // "program": "${workspaceFolder}/extras/myCorporateExpenses.js"
             // "program": "${workspaceFolder}/extras/js/errorHandling/index.js"
             // "program": "${workspaceFolder}/extras/js/async-await.js"
             // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/Triple sum.js"
-            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/Triple sum.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/rotateImage.js"
+            // "program": "${workspaceFolder}/extras/javascript/codeThisNotThat/new-function.js"
+            // "program": "${workspaceFolder}/extras/aws/notes.js"
+            // "program": "${workspaceFolder}/extras/javascript/jwt-redis/first.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/fair-rations.js"
+            // "program": "${workspaceFolder}/extras/hackerRank/problemSolving/flatland-space-stations.js"
+            // "program": "${workspaceFolder}/extras/aws/pipe.js"
+            
+            // "program": "${workspaceFolder}/extras/clearbit/seconds.js"
+            // "program": "${workspaceFolder}/extras/aws/first.js"
+            "program": "${workspaceFolder}/extras/interview_job/automation-singularity/practice.js"
+            
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "delete.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/delete.js"
         }
     ]
 }

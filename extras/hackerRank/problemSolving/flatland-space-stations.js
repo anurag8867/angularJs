@@ -1,17 +1,20 @@
 // Complete the flatlandSpaceStations function below.
 function flatlandSpaceStations(n, c) {
   c = c.sort();
-  let tempArray = [];
+  let dist = 0;
+  let ar = [];
   for (let index = 0; index < n; index++) {
-    let min = n;
+    dist = null;
     for (let index2 = 0; index2 < c.length; index2++) {
-      if (Math.abs(index - c[index2]) < min) {
-        min = Math.abs(index - c[index2]);
+      if (!dist && !(dist === 0)) {
+        dist = Math.max(dist, Math.abs(index - c[index2]));
+      } else {
+        dist = Math.min(dist, Math.abs(index - c[index2]));
       }
     }
-    tempArray.push(min);
+    ar.push(dist)
   }
-  return tempArray.sort()[tempArray.length-1];
+  return ar.sort((a, b) => b - a)[0];
 }
 
 console.log(flatlandSpaceStations(5, [0, 4]))

@@ -10,11 +10,13 @@ let deduction = {
     food: (200 * 4 * months),
     recharge: ((149 * months) + ((months - 12) * 50)),
     juice_n_med: 350 * months,
+    almonds: 200 * months,
     otherExpenses: (10000 + 6 * 1500 + 7700 + 8200 + 3500 + 3200 + 300),
     delivered: 100000,
-    own: (57 + 104 + 12 + 30 + 30 + 1.5 + 1 + 1 + 5 + 131) * 1000,
+    // own: (57 + 104 + 12 + 30 + 30 + 1.5 + 1 + 1 + 5 + 131) * 1000,
+    own: (449.1) * 1000,
     bangalore: 5300 + 1000 + 500 + 260 + 100 + 2500,
-    shopping: (5000 + 2000 + 1000 + 1300 + 2000 + 600)
+    shopping: (5000 + 2000 + 1000 + 1300 + 2000 + 600 + 750)
 };
 
 for (let exp in deduction) {
@@ -22,8 +24,10 @@ for (let exp in deduction) {
     expenses += deduction[exp];
 }
 
+console.log("Total Earning :" + totalEarning);
+console.log({ months });
 console.log("Total where :" + ((totalEarning - expenses)));
-console.log("Monthly where :" + ((totalEarning - expenses) / months));
+console.log("Monthly not found yet, where? :" + ((totalEarning - expenses) / months));
 
 function monthDiff(d1, d2) {
     var months;
