@@ -5,6 +5,10 @@ function findSmallest(array) {
     }
     return small;
 }
+function isSorted(arr) {
+    let resp = !!arr.reduce((memo, item) => memo && item >= memo && item);
+    return resp;
+}
 
 function findBiggest(array) {
     let small = array[0];
@@ -30,6 +34,6 @@ function makeArrayConsecutive2(statues) {
     }
     return count;
 }
-console.log(makeArrayConsecutive2([0,  3]))
-console.log(makeArrayConsecutive2([6,  3]))
+console.log(makeArrayConsecutive2([0, 3]))
+console.log(makeArrayConsecutive2([6, 3]))
 console.log(makeArrayConsecutive2([6, 2, 3, 8]))

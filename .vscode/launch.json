@@ -6,12 +6,12 @@
     "configurations": [
         {
             "type": "node",
-            "request": "attach",
-            "name": "Attach",
-            "port": 9229,
+            "request": "launch",
+            "name": "delete.js",
             "skipFiles": [
                 "<node_internals>/**"
-            ]
+            ],
+            "program": "${workspaceFolder}/delete.js"
         },
         {
             "type": "node",
@@ -43,17 +43,27 @@
             
             // "program": "${workspaceFolder}/extras/clearbit/seconds.js"
             // "program": "${workspaceFolder}/extras/aws/first.js"
-            "program": "${workspaceFolder}/extras/interview_job/automation-singularity/practice.js"
+            // "program": "${workspaceFolder}/extras/problemSolving/leetcode/maximalsquare.js"
+            "program": "${workspaceFolder}/extras/js/asyncwaterfall.js"
             
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "delete.js",
+            "name": "awsImageServer.js",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/delete.js"
+            "program": "${workspaceFolder}/node/awsImage/awsImageServer.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "awsImageUploadAwaitChildProcessMiddleware.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/node/awsImage/awsImageUploadAwaitChildProcessMiddleware.js"
         }
     ]
 }

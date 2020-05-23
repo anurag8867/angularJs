@@ -1,388 +1,76 @@
-{
-    "message": "data retrieved successfully",
-    "data": {
-        "id": 481,
-        "uuid": "e189be63-ae7a-48a4-ab6e-47f83b85735e",
-        "email": "givej91443@x7mail.com",
-        "alternate_email": "",
-        "name": "Givej91443",
-        "type": null,
-        "created_at": "2020-03-25T04:58:32.000Z",
-        "updated_at": "2020-03-25T04:58:32.000Z",
-        "ongrid_id": null,
-        "gender": 2,
-        "deleted_at": null,
-        "dob": null,
-        "father_name": null,
-        "email_reject_type": "NA",
-        "user_id": 2,
-        "company_candidate_mapping": {
-            "id": 478,
-            "uuid": "58c4fadc-2879-4b8f-a1fd-79a22aad3ffe",
-            "company_id": 2,
-            "candidate_id": 481,
-            "employee_id": "356e",
-            "phone_number": "9484847378",
-            "country_code": "IN",
-            "alt_phone_number": "7847473848",
-            "alt_country_code": "IN",
-            "resume": "https://springverify-assets-id.s3.amazonaws.com/481/resume",
-            "category_id": 45,
-            "created_at": "2020-03-25T04:58:32.000Z",
-            "updated_at": "2020-03-25T11:37:26.000Z",
-            "deleted_at": null,
-            "candidate_ids": null,
-            "work_experience": null,
-            "education": null,
-            "address": null,
-            "history": null,
-            "refcheck": "38",
-            "worldcheck": "68",
-            "creditcheck": null,
-            "drugscheck": null,
-            "typeform_url": null,
-            "signrequest_url": null,
-            "status": 0,
-            "signedrequest_status": 0,
-            "springverify_signature": null,
-            "consent_letter_url": "https://springverify-assets-id.s3.amazonaws.com/Givej91443-consent-1585133694933.jpeg",
-            "consent_added_at": "2020-03-25T10:54:55.000Z",
-            "spring_candidate_ip": "172.31.22.211",
-            "form_filled": "2020-03-25T10:50:16.000Z",
-            "candidate_added_by": 2,
-            "form_filled_by": 1,
-            "consent_added_by": 1,
-            "who_fills_form": 3,
-            "past_jobs": "1",
-            "springscan_id": "5e7b359f624feb001c3a310c",
-            "candidate_form": {
-                "id": 498,
-                "uuid": "3dbabcf0-cb2f-4dc7-9130-f2698a609a4f",
-                "row_id": 478,
-                "check_type": "1,2,3,4,9,6",
-                "status": 0,
-                "selected_identity_type": 1,
-                "created_at": "2020-03-25T15:58:32.000Z",
-                "updated_at": "2020-03-25T22:37:07.000Z"
-            }
-        },
-        "candidates_ids": [
-            {
-                "id": 251,
-                "uuid": "5dc7707a-5b3d-450b-9922-c37c45683b00",
-                "candidate_id": 481,
-                "type_old": null,
-                "type": 5,
-                "identity_candidate_name": "givej91443",
-                "data": "{\"files\":[\"https:\\/\\/springverify-assets-id.s3.amazonaws.com\\/givej91443-1585132965534-481-candidate-IDENTITY-identity.jpg\"]}",
-                "parsed_data": "https://springverify-assets-id.s3.amazonaws.com/givej91443-1585132959069-481-ind-voter-id.jpg",
-                "status": 9,
-                "qc_check_log_id": null,
-                "created_at": "2020-03-25T21:50:16.000Z",
-                "updated_at": "2020-03-25T21:50:16.000Z",
-                "ongrid_document_id": null,
-                "ongrid_request_id": null,
-                "identity_number": "49845989589548948",
-                "ongrid_reports": null,
-                "father_name": "",
-                "dob": null,
-                "completed_at": null,
-                "comments": "",
-                "report": null,
-                "requested_at": null,
-                "added_to_report_at": null,
-                "ops_status_uuid": "N/A",
-                "isGovernmentVerificationSuccess": -1,
-                "isIdVerified": -1,
-                "isFrontNotShared": -1,
-                "is_migrated": 0,
-                "deleted_at": null,
-                "files": [
-                    {
-                        "id": 1428,
-                        "uuid": "f03ba223-3f32-480a-be89-44b9bb985a94",
-                        "related_uuid": "5dc7707a-5b3d-450b-9922-c37c45683b00",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/givej91443-1585132965534-481-candidate-IDENTITY-identity.jpg",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T21:50:16.000Z",
-                        "updated_at": "2020-03-25T21:50:16.000Z",
-                        "deleted_at": null
-                    }
-                ],
-                "insufficiencyTime": null,
-                "effectiveTATTime": 0,
-                "elapsedTime": 1,
-                "onHold": null
-            }
-        ],
-        "candidate_drugs": [],
-        "candidates_addresses": [
-            {
-                "id": 254,
-                "uuid": "cec182a6-7283-4f68-be71-1075f85e6ac8",
-                "candidate_id": 481,
-                "address_candidate_name": "givej91443",
-                "provider_request_id": null,
-                "provider_postal_request_id": null,
-                "idfy_request_id": null,
-                "provider_type": null,
-                "order_number": null,
-                "sv_postal_id": null,
-                "address_id": null,
-                "type": "Permanent Address",
-                "data": "{\"files\":[\"https:\\/\\/springverify-assets-id.s3.amazonaws.com\\/givej91443-1585133010402-481-candidate-ADDRESS-address.png\",\"https:\\/\\/springverify-assets-id.s3.amazonaws.com\\/givej91443-1585133023754-481-candidate-ADDRESS-address.jpg\"]}",
-                "status": 9,
-                "qc_check_log_id": null,
-                "created_at": "2020-03-25T21:50:16.000Z",
-                "updated_at": "2020-03-25T21:50:16.000Z",
-                "requested_at": null,
-                "completed_at": null,
-                "address_1": "travaekere House No. 640 Sec-4 Rohtak Haryana  India sfjlkdfjjfk",
-                "address_2": "",
-                "city": "Rohtak",
-                "state": "Haryana",
-                "zipcode": 110011,
-                "country": "India",
-                "landmark": "sdcjhvdshc",
-                "reports": null,
-                "document_type": "Aadhaar Card",
-                "is_candidate_available": 1,
-                "relation_name": null,
-                "address_information": "{\"address_type\":\"Own \\/ Parents\",\"currently_reside\":\"Yes\",\"length_of_stay\":\"6 years\"}",
-                "gmap_address_info": "{\"lat\":\"\",\"lng\":\"\",\"full_address\":\"\",\"place_id\":\"\"}",
-                "ops_status_uuid": "N/A",
-                "deleted_at": null,
-                "is_file_migrated": 0,
-                "files": [
-                    {
-                        "id": 1429,
-                        "uuid": "1f8af0d7-c317-41df-a9bb-bdc1689f4f8f",
-                        "related_uuid": "cec182a6-7283-4f68-be71-1075f85e6ac8",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/givej91443-1585133010402-481-candidate-ADDRESS-address-aadhaar-masked-737487dc-d8b3-4a34-8af2-d21f097570b1.jpg",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T21:50:22.000Z",
-                        "updated_at": "2020-03-25T21:50:22.000Z",
-                        "deleted_at": null
-                    },
-                    {
-                        "id": 1430,
-                        "uuid": "dfc372ce-1ad0-4977-889b-d2cbc1ee8dc4",
-                        "related_uuid": "cec182a6-7283-4f68-be71-1075f85e6ac8",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/givej91443-1585133023754-481-candidate-ADDRESS-address-aadhaar-masked-ee684491-e6ec-48a3-8d89-0f4922d703e2.jpg",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T21:50:29.000Z",
-                        "updated_at": "2020-03-25T21:50:29.000Z",
-                        "deleted_at": null
-                    }
-                ],
-                "insufficiencyTime": null,
-                "effectiveTATTime": 0,
-                "elapsedTime": 1,
-                "onHold": null
-            }
-        ],
-        "candidates_creditchecks": [],
-        "candidates_employments": [
-            {
-                "id": 245,
-                "uuid": "d9fc71c4-f858-4100-b403-049d6fffa6e1",
-                "candidate_id": 481,
-                "emp_candidate_name": "givej91443",
-                "company_name": "test",
-                "company_data": "{\"files\":[\"https:\\/\\/springverify-assets-id.s3.amazonaws.com\\/givej91443-1585133100376-481-candidate-EMPLOYMENT-employment.png\"]}",
-                "status": 9,
-                "qc_check_log_id": null,
-                "created_at": "2020-03-25T21:50:29.000Z",
-                "updated_at": "2020-03-25T21:50:29.000Z",
-                "designation": "developer",
-                "employee_id": "23242",
-                "location": "bang",
-                "start_date": "2013-03-08",
-                "currently_here": null,
-                "end_date": "2017-03-10",
-                "verification_type": null,
-                "completion_date": null,
-                "ongrid_request_id": null,
-                "ongrid_document_id": null,
-                "document_type": "ExperienceLetter",
-                "ongrid_reports": null,
-                "hr_name": "testing",
-                "hr_phone": null,
-                "hr_email": null,
-                "rm_name": "",
-                "rm_email": null,
-                "rm_phone": null,
-                "recommend_hire": null,
-                "left_comment": "",
-                "compensation": "",
-                "requested_at": null,
-                "compensation_type": "",
-                "initiated_to_vs": null,
-                "ops_status_uuid": "N/A",
-                "deleted_at": null,
-                "is_file_migrated": 0,
-                "files": [
-                    {
-                        "id": 1431,
-                        "uuid": "220ae81b-abff-4757-9c70-3f87a1122544",
-                        "related_uuid": "d9fc71c4-f858-4100-b403-049d6fffa6e1",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/givej91443-1585133100376-481-candidate-EMPLOYMENT-employment.png",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T21:50:30.000Z",
-                        "updated_at": "2020-03-25T21:50:30.000Z",
-                        "deleted_at": null
-                    }
-                ],
-                "insufficiencyTime": null,
-                "effectiveTATTime": 0,
-                "elapsedTime": 1,
-                "onHold": null
-            }
-        ],
-        "candidates_educations": [],
-        "candidates_worldchecks": [
-            {
-                "id": 68,
-                "uuid": "4f556ce7-023b-45b5-867c-065a658ad368",
-                "candidate_id": "e189be63-ae7a-48a4-ab6e-47f83b85735e",
-                "candidate_name": "Givej91443",
-                "father_name": "",
-                "address": "travaekere House No. 640 Sec-4 Rohtak Haryana  India sfjlkdfjjfk, Rohtak, Haryana, 110011",
-                "dob": null,
-                "verification_type": "",
-                "status": 1,
-                "qc_check_log_id": null,
-                "verifier": "",
-                "comments": "",
-                "requested_date": null,
-                "completed_date": "2020-03-25",
-                "created_at": "2020-03-25T22:37:06.000Z",
-                "updated_at": "2020-03-25T22:37:06.000Z",
-                "deleted_at": null,
-                "files": [
-                    {
-                        "id": 1433,
-                        "uuid": "41b5fb86-ce26-4c57-9755-7dce43a4dfce",
-                        "related_uuid": "4f556ce7-023b-45b5-867c-065a658ad368",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/Givej91443-worldcheck-1585136240186-481-worldcheck.png",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T22:37:20.000Z",
-                        "updated_at": "2020-03-25T22:37:20.000Z",
-                        "deleted_at": null
-                    },
-                    {
-                        "id": 1434,
-                        "uuid": "0928f49e-d435-4d62-b9e7-987310922dcd",
-                        "related_uuid": "4f556ce7-023b-45b5-867c-065a658ad368",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/Givej91443-1585136267442-481-verify-report-WorldCheckProof.jpg",
-                        "is_default": 0,
-                        "is_verified": 1,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T22:37:47.000Z",
-                        "updated_at": "2020-03-25T22:37:47.000Z",
-                        "deleted_at": null
-                    }
-                ],
-                "insufficiencyTime": null,
-                "effectiveTATTime": 0,
-                "elapsedTime": 1,
-                "onHold": null
-            }
-        ],
-        "candidate_histories": [],
-        "candidates_refchecks": [
-            {
-                "id": 38,
-                "uuid": "83d7de51-9cc3-4d80-9ae9-2e4da886c6c7",
-                "candidate_id": "e189be63-ae7a-48a4-ab6e-47f83b85735e",
-                "emp_uuid": "d9fc71c4-f858-4100-b403-049d6fffa6e1",
-                "name": "Givej91443",
-                "employer_name": "test",
-                "designation": "developer",
-                "verification_type": "",
-                "verifier_name": "",
-                "verifier_phone": "",
-                "verifier_email": "",
-                "verifier_designation": "",
-                "is_verifier_working": 0,
-                "doj": "2013-03-08",
-                "lwd": "2017-03-10",
-                "currently_working": 0,
-                "hr_name": "testing",
-                "hr_phone": "+919889338376",
-                "hr_email": "test@gmail.com",
-                "rm_name": "tetsing",
-                "rm_email": "tets@gmail.com",
-                "rm_phone": "883737338",
-                "status": 1,
-                "qc_check_log_id": null,
-                "comments": "",
-                "requested_date": null,
-                "completed_date": "2020-03-25",
-                "created_at": "2020-03-25T22:33:18.000Z",
-                "updated_at": "2020-03-25T22:33:18.000Z",
-                "deleted_at": null,
-                "files": [
-                    {
-                        "id": 1432,
-                        "uuid": "c88d0476-dfbc-4af3-92b7-0c504b68c6cd",
-                        "related_uuid": "83d7de51-9cc3-4d80-9ae9-2e4da886c6c7",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/Givej91443-refcheck-1585136029795-481-refcheck.png",
-                        "is_default": 0,
-                        "is_verified": 0,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T22:33:49.000Z",
-                        "updated_at": "2020-03-25T22:33:49.000Z",
-                        "deleted_at": null
-                    },
-                    {
-                        "id": 1435,
-                        "uuid": "7848e944-17e6-4298-bc0d-e490439da569",
-                        "related_uuid": "83d7de51-9cc3-4d80-9ae9-2e4da886c6c7",
-                        "document_url": "https://springverify-assets-id.s3.amazonaws.com/Givej91443-1585136307051-481-verify-report-refcheckProof.png",
-                        "is_default": 0,
-                        "is_verified": 1,
-                        "show_in_report": 1,
-                        "created_at": "2020-03-25T22:38:27.000Z",
-                        "updated_at": "2020-03-25T22:38:27.000Z",
-                        "deleted_at": null
-                    }
-                ],
-                "insufficiencyTime": null,
-                "effectiveTATTime": 0,
-                "elapsedTime": 1,
-                "onHold": null
-            }
-        ],
-        "user": {
-            "id": 2,
-            "uuid": "dde7c7ff-1d81-45a9-9e24-e8ad2077d4f1",
-            "name": "Jack",
-            "username": null,
-            "email": "jackhym23@gmail.com",
-            "password": "$2y$13$s9yygS7/WAnfFLs7BYZsXuGQGidteOfQ3kthDrhXE0n6Qjr3w3Cvq",
-            "access_level": null,
-            "mobile": "8976535343",
-            "status": 1,
-            "auth_key": null,
-            "password_reset_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJJZCI6MiwiZW1haWwiOiJqYWNraHltMjNAZ21haWwuY29tIn0sImlhdCI6MTU4NTMwNDE0NX0.V1SxMDxAR0KsasgWDEt7NyhjlkF5HAdK2EzIzVGnZ9M",
-            "created_at": null,
-            "updated_at": "2020-03-27T15:45:45.000Z",
-            "deleted_at": null,
-            "customer_id": "cust_Dq8sAd6hp3KLxu",
-            "email_reject_type": "NA",
-            "designation": "super admin"
-        },
-        "report_url": "https://dev.in.springverify.com/candidate/report?id=481"
-    }
-}
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4245
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4246
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4247
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4248
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4249
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4251
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4235
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4200
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4201
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4202
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4230
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4228
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3929
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3303
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1590
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4245
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4246
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4247
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4248
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4249
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4251
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4235
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4200
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4201
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4202
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4230
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4228
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3929
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3303
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1590
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4245
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4246
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4247
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4248
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4249
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4251
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4235
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4200
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4201
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4202
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4230
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4228
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3929
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3303
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1590
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4245
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4246
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4247
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4248
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4249
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4250
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4251
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4253
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4235
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4200
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4201
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4202
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4230
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=4228
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3929
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=3303
+google-chrome chrome://newtab https://acceptance-portal.in.springverify.com/viewCandidate?candidateId=1590

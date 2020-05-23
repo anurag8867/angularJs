@@ -1,0 +1,14 @@
+console.log(/[^a-c]/.test("dn"));
+console.log(/\D/.test("anu"));
+console.log(/\D/.test(10));
+console.log(/\d/.test(10));
+console.log(/[0-9]/.test(10));
+console.log(/\d/.test('anuragt'));
+console.log(/t$/.test('anuragt'));
+console.log(/t$/.test('anuragte'));
+console.log(/^a/.test('anuragte'));
+console.log(/^g/.test('anuragte'));
+console.log(/oon\b/.test('moon'));
+console.log(/oon$/.test('moon'));
+console.log(/.y/.test('yes'));
+console.log(/.y/.test('esy'));
