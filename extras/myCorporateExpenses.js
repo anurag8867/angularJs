@@ -3,7 +3,7 @@ let months = monthDiff(
     new Date(2018, 3, 1), // November 4th, 2008
     new Date()  // March 12th, 2010
 ) + 2;
-let totalEarning = ((24850 * 15) + 3000 + 5200) + (29850 * 6) + 50000 + 20000 + (71200 * 3) + (65150 * ((months - 25)));
+let totalEarning = ((24850 * 15) + 3000 + 5200) + (29850 * 6) + 50000 + 20000 + (71200 * 3) + (xxxxx * ((months - 25)));
 let expenses = 0;
 let deduction = {
     rent: (7000 * 21) + 3500 + (5500 * (months - 21)) + 3000,
