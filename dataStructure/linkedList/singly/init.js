@@ -90,7 +90,7 @@ function isEmpty() {
 
 function printList() {
     while (listRef && listRef.data && listRef.data !== null) {
-        console.log(listRef.data)
+        // console.log(listRef.data)
         listRef = listRef.ref
     }
 }
@@ -108,8 +108,7 @@ removeElement(25);
 console.log(isEmpty())
 let resp = removeFrom(2);
 let index = indexOf(40);
-console.log(index);
-console.log(resp);
+console.log(JSON.stringify(resp));
 printList();
 
 

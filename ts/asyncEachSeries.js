@@ -1,4 +1,5 @@
 const async = require('async');
+const q = require('/home/springrole/projects/angularJs/app.js');
 
 function getData2() {
   // console.time()
@@ -10,11 +11,11 @@ function getData2() {
   // return "anurag"
 }
 
-
+module.exports = { getData2 }
 function getData() {
   // console.time()
-  var a1 = [1,2,3,4,5,6,7,8];
-  async.forEachSeries(a1, function(n1, callback) {
+  var a1 = [1, 2, 3, 4, 5, 6, 7, 8];
+  async.forEachSeries(a1, function (n1, callback) {
     console.log(n1);
     callback();
   });
@@ -23,8 +24,8 @@ function getData() {
 }
 function getData3() {
   // console.time()
-  var a1 = [1,2,3,4,5,6,7,8];
-  async.each(a1, function(n1, callback) {
+  var a1 = [1, 2, 3, 4, 5, 6, 7, 8];
+  async.each(a1, function (n1, callback) {
     console.log(n1);
     callback();
   });

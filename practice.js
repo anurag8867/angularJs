@@ -1,37 +1,48 @@
-// Write a function to reverse individual words of a string.
-// Eg: "HELLO WORLD" => "OLLEH DLROW"
-// Catch: Do not use any inbuilt JS functions like slice, splice, split, reverse etc.
-
-
-function rev(string) {
-    let reversedString = "";
-    let ar = [], word = "";
-    for (let index = 0; index < string.length; index++) {
-        if (string[index] !== ' ' && string.length - 1 !== index) {
-            word += string[index];
-        } else if (string.length - 1 === index) {
-            word += string[index];
-            ar.push(word);
+/**
+ * Time Complexity O(n)
+ * Space Complexity O(1)
+ */
+function sumOfTwoPartTwo(array, sum) {
+    array.sort();
+    let len = array.length;
+    let leftIndex = 0;
+    let rightIndex = len - 1;
+    let tempSum = 0;
+    while (leftIndex < rightIndex) {
+        tempSum = array[leftIndex] + array[rightIndex];
+        if (tempSum === sum) {
+            return [leftIndex, rightIndex];
+        } else if (sum < tempSum) {
+            rightIndex--;
         } else {
-            ar.push(word);
-            word = "";
+            leftIndex++;
         }
     }
-    ar.forEach((value, index, array) => {
-        reversedString += reverseString(value);
-        if (array.length - index > 1) {
-            reversedString += " ";
-        }
-    })
-    return reversedString;
+    return false;
 }
 
-function reverseString(string) {
-    let str = "";
-    for (let index = string.length - 1; index >= 0; index--) {
-        str += string[index];
+/**
+ * Time Complexity O(n)
+ * Space Complexity O(n)
+ */
+function sumOfTwo(array, sum) {
+    let obj = {};
+    let requiredSum = null;
+    for (let index = 0; index < array.length; index++) {
+        requiredSum = sum - array[index]
+        if (obj[requiredSum]) {
+            return [index, obj[requiredSum]]
+        } else {
+            obj[array[index]] = index
+        }
     }
-    return str;
+    return false;
 }
-console.log(rev("HELLO WORLD Anurag"));olleh
-console.log(rev("HELLO WORLD"));
+
+console.log(sumOfTwoPartTwo([50, 60, 70, 80], 170));
+console.log(sumOfTwoPartTwo([50, 60, 70, 80], 140));
+console.log(sumOfTwoPartTwo([50, 60, 70, 80], 130));
+console.log(sumOfTwoPartTwo([10, 20, 30, 40], 40));
+console.log(sumOfTwo([50, 60, 70, 80], 140));
+console.log(sumOfTwo([50, 60, 70, 80], 130));
+console.log(sumOfTwo([10, 20, 30, 40], 40));

@@ -111,17 +111,19 @@ class doublyLinkedList {
 }
 
 let list = new doublyLinkedList();
-console.log(list.isEmpty())
-list.insert(10);
-list.insert(20);
-list.insert(30);
-console.log(list.isEmpty())
-list.insert(40);
-list.insert(50);
-list.insert(60);
-list.insert(70);
-list.insertAt(66, 4);
-list.printList();
-let resp = list.indexOf(30);
-// list.removeFrom(3);
-console.log(resp);
+// console.log(list.isEmpty())
+// list.insert(10);
+// list.insert(20);
+// list.insert(30);
+// console.log(list.isEmpty())
+// list.insert(40);
+// list.insert(50);
+// list.insert(60);
+// list.insert(70);
+// list.insertAt(66, 4);
+// list.printList();
+// let resp = list.indexOf(30);
+// // list.removeFrom(3);
+// console.log(resp);
+
+module.exports = list;

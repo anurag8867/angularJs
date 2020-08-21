@@ -3,8 +3,7 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-        {
+    "configurations": [{
             "type": "node",
             "request": "launch",
             "name": "practice.js",
@@ -16,12 +15,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "app",
+            "name": "middle",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/node/childProcess/application/app.js"
-            
+            "program": "${workspaceFolder}/dataStructure/linkedList/doubly/middle.js"
+
         },
         {
             "type": "node",
@@ -35,20 +34,29 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "doublyLinkedLlist",
+            "name": "mergeThreeObject",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/dataStructure/doublyLinkedLlist/init.js"
+            "program": "${workspaceFolder}/problemSolving/problems/mergeThreeObject.js"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "threeNumberSum",
+            "name": "create",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/dataStructure/threeNumberSum/init.js"
+            "program": "${workspaceFolder}/dataStructure/binarySearch/create.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "contiguousArray",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/problemSolving/problems/contiguousArray.js"
         }
     ]
 }

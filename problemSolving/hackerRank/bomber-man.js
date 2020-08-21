@@ -1,51 +1,53 @@
-function isZero(ar, row, col) {
-    if (ar[row][col] === "O") return false;
-    if ((ar[row + 1] === undefined ? true : ar[row + 1][col] === ".")
-        && (ar[row - 1] === undefined ? true : ar[row - 1][col] === ".") &&
-        (ar[row][col + 1] === undefined ? true : ar[row][col + 1] === ".")
-        && (ar[row][col - 1] === undefined ? true : ar[row][col - 1] === ".")) {
-        return true;
+//https://www.hackerrank.com/challenges/bomber-man/problem
+function detonate(array, times) {
+    times--;
+    let ar = [], str = "";
+    for (let index = 0; index < array.length; index++) {
+        for (let index2 = 0; index2 < array[index].length; index2++) {
+            if ((array[index] && array[index][index2] === "O") ||
+                (array[index - 1] && array[index - 1][index2] === "O") ||
+                (array[index + 1] && array[index + 1][index2] === "O") ||
+                (array[index] && array[index][index2 - 1] === "O") ||
+                (array[index] && array[index][index2 + 1] === "O")
+            ) {
+                str += "."
+            } else {
+                str += "0"
+            }
+        }
+        ar.push(str);
+        str = "";
     }
-    return false;
+    if (times) {
+        return detonate(ar);
+    }
+    return ar;
 }
 
-function run(grid) {
-    let outputArray = [];
-    for (let row = 0; row < grid.length; row++) {
-        outputArray[row] = [];
-        for (let col = 0; col < grid[row].length; col++) {
-            outputArray[row][col] = isZero(grid, row, col) ? "O" : '.';
-        }
+function getEven(array) {
+    let str = "", ar = [];
+    let arrayLength = array.length;
+    let lineLength = array[0].length;
+    for (let index = 0; index < lineLength; index++) {
+        str += "1";
     }
-    return outputArray;
-}
-function procced(time, grid) {
-    let output = grid;
-    let turns = time / 3;
-    while (turns--) {
-        output = run(output);
+    for (let index = 0; index < arrayLength; index++) {
+        ar.push(str);
     }
-    return output;
+    return ar;
 }
 
 function bomberMan(time, ar) {
     let grid = [];
-    ar.forEach((value, index, array) => {
-        grid[index] = value.split('');
-    });
-    let out = procced(time, grid);
-    let restructure = [], str = "";
-
-    out.forEach((value, index, array) => {
-        value.forEach((val, ind, arr) => {
-            str += val;
-        });
-        restructure.push(str);
-        str = "";
-    });
-    return restructure;
+    if (time === 1) {
+        return ar;
+    } else if (time % 2 === 0) {
+        return getEven(ar);
+    } else {
+        let times = Math.floor(time / 2);
+        return detonate(ar, times)
+    }
 }
-
 
 console.log(bomberMan(3, [
     ".......",
@@ -55,6 +57,24 @@ console.log(bomberMan(3, [
     "OO.....",
     "OO....."
 ]));
+console.log(bomberMan(5, [
+    ".......",
+    "...O...",
+    "....O..",
+    ".......",
+    "OO.....",
+    "OO....."
+]));
+
+console.log(bomberMan(5, [
+    ".......",
+    "...O.O.",
+    "....O..",
+    "..O....",
+    "OO...OO",
+    "OO.O..."
+]));
+
 
 // console.log(bomberMan(3, [
 //     ['.', '.', '.', '.', '.', '.', '.'],
