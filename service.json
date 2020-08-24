@@ -1,0 +1,139 @@
+[
+    {
+        "id": 49,
+        "company_id": 2,
+        "service_id": 4,
+        "default_service": 1,
+        "company_service_name": "Employment Verification",
+        "company_service_price": "350",
+        "created_at": null,
+        "updated_at": null,
+        "service": {
+            "id": 4,
+            "name": "Employment Verification",
+            "price": 350,
+            "status": 1,
+            "created_at": "2019-03-19T11:19:19.000Z",
+            "updated_at": "2019-04-11T06:55:16.000Z",
+            "deleted_at": null
+        }
+    },
+    {
+        "id": 50,
+        "company_id": 2,
+        "service_id": 5,
+        "default_service": 1,
+        "company_service_name": "Education Verification",
+        "company_service_price": "800",
+        "created_at": null,
+        "updated_at": null,
+        "service": {
+            "id": 5,
+            "name": "Education Verification",
+            "price": 800,
+            "status": 1,
+            "created_at": "2019-03-19T16:49:36.000Z",
+            "updated_at": "2019-10-09T17:52:27.000Z",
+            "deleted_at": null
+        }
+    },
+    {
+        "id": 58,
+        "company_id": 2,
+        "service_id": 1,
+        "default_service": 1,
+        "company_service_name": "Identity Verification",
+        "company_service_price": "1015",
+        "created_at": null,
+        "updated_at": null,
+        "service": {
+            "id": 1,
+            "name": "Identity Verification",
+            "price": 1015,
+            "status": 1,
+            "created_at": "2019-03-21T07:18:15.000Z",
+            "updated_at": "2019-09-04T14:07:44.000Z",
+            "deleted_at": null
+        },
+        "identities": [
+            {
+                "id": 1,
+                "identity_name": "Any",
+                "springscan_doc_name": null,
+                "created_at": "2019-10-01T09:05:00.000Z",
+                "deleted_at": null,
+                "updated_at": "2019-10-01T09:05:00.000Z"
+            },
+            {
+                "id": 2,
+                "identity_name": "Pan",
+                "springscan_doc_name": "ind_pan",
+                "created_at": "2019-10-01T09:05:00.000Z",
+                "deleted_at": null,
+                "updated_at": "2019-10-01T09:05:00.000Z"
+            },
+            {
+                "id": 3,
+                "identity_name": "Driving License",
+                "springscan_doc_name": "ind_driving_license",
+                "created_at": "2019-10-01T09:05:00.000Z",
+                "deleted_at": null,
+                "updated_at": "2019-10-01T09:05:00.000Z"
+            },
+            {
+                "id": 4,
+                "identity_name": "Passport",
+                "springscan_doc_name": "ind_passport",
+                "created_at": "2019-10-01T09:05:00.000Z",
+                "deleted_at": null,
+                "updated_at": "2019-10-01T09:05:00.000Z"
+            },
+            {
+                "id": 5,
+                "identity_name": "Voter Id",
+                "springscan_doc_name": "ind_voter_id",
+                "created_at": "2019-10-01T09:05:00.000Z",
+                "deleted_at": null,
+                "updated_at": "2019-10-01T09:05:00.000Z"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "company_id": 2,
+        "service_id": 2,
+        "default_service": 1,
+        "company_service_name": "Court Record Verification",
+        "company_service_price": "350",
+        "created_at": null,
+        "updated_at": null,
+        "service": {
+            "id": 2,
+            "name": "Court Record Verification",
+            "price": 350,
+            "status": 1,
+            "created_at": "2019-03-19T11:18:39.000Z",
+            "updated_at": "2019-04-15T09:24:55.000Z",
+            "deleted_at": null
+        }
+    },
+    {
+        "id": 72,
+        "company_id": 2,
+        "service_id": 3,
+        "default_service": 1,
+        "company_service_name": "Address Verification",
+        "company_service_price": "400",
+        "created_at": null,
+        "updated_at": null,
+        "service": {
+            "id": 3,
+            "name": "Address Verification",
+            "price": 400,
+            "status": 1,
+            "created_at": "2019-03-19T16:49:02.000Z",
+            "updated_at": "2019-10-14T15:32:09.000Z",
+            "deleted_at": null
+        }
+    }
+]

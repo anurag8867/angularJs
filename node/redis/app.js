@@ -10,23 +10,18 @@ client.get('11', function (err, reply) {
     console.log({ reply });
 });
 
-// client.hmset('framework', 'javascript', 'AngularJS', 'css', 'Bootstrap', 'node', 'Express');
-
-
-// client.hgetall('framework', function (err, object) {
-//     console.log({ object });
+// client.rpush(['frameworks', 'angularjs', 'backbone'], function (err, reply) {
+//     console.log(reply); //prints 2
 // });
+client.hmset('123', {
+    'javascript': 'AngularJS',
+    'css': 'Bootstrap',
+    'node': 'Express'
+});
 
-// client.hmset('123', {
-//     'javascript': 'AngularJS',
-//     'css': 'Bootstrap',
-//     'node': 'Express'
-// });
-
-
-// client.hgetall('123', function (err, object) {
-//     console.log(object);
-// });
+client.hgetall('123', function (err, object) {
+    console.log(object);
+});
 
 // client.rpush(['rpush', 'angularjs', 'backbone'], function (err, reply) {
 //     console.log(reply); //prints 2
