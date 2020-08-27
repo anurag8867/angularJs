@@ -52,11 +52,38 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "contiguousArray",
+            "name": "Soap",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/problemSolving/problems/contiguousArray.js"
+            "program": "${workspaceFolder}/node/soap/second/init.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "First Soap",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/node/soap/first/init.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "strong-soap",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/node/soap/strong-soap/init.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "wsdl",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/node/soap/wsdl/init.js"
         }
     ]
 }
